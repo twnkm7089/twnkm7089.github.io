@@ -30,9 +30,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="projects.html">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="https://github.com/twnkm7089">GITHUB</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="https://github.com/twnkm7089" target="_blank">GITHUB</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,8 +45,8 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="site-heading">
-                            <h1>김태운의 개발일지</h1>
-                            <span class="subheading">Taewoon Kim's Blog</span>
+                            <h1>안녕하세요, 항상 성장하는 개발자. 김태운입니다.</h1>
+                            <span class="subheading">Hello, My name is TaeWoon Kim.</span>
                         </div>
                     </div>
                 </div>
@@ -55,20 +55,22 @@
 
         <!--메인 콘텐츠-->
         <!-- Main Content-->
+
+        <div id="about"></div>
+        <!--About Me-->
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <!-- Post preview-->
                     <div class="post-preview">
-                        <a href="september.html">
-                            <h2 class="post-title">2023년 9월 근황</h2>
-                            <h3 class="post-subtitle">내 현재 근황과 앞으로의 계획</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">김태운</a>
-                            on Sept 9, 2023
-                        </p>
+                        <h1>About Me</h1>
+                        <img src="./assets/img/사진(기본) (1).jpeg" width="30%">
+                        <h2 style="display: inline-block; width: 60%; font-size: 20px;">"안녕하세요, 저는 김태운입니다."</h2>
+                        <ul>
+                            <li>대학 전공 : 전자전기공학부</li>
+                            <li>백준 골드 2</li>
+                            <li>SSAFY 10기 (2023.07~)</li>
+                        </ul>
                     </div>
                     <!-- Divider-->
                     <hr class="my-4" />
@@ -77,28 +79,81 @@
         </div>
 
 
-
-
-
-
-
-
-
-
+        <!--My Skills-->
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <!-- Post preview-->
                     <div class="post-preview">
-                        <a href="java_review.html">
-                            <h2 class="post-title">SSAFY-JAVA후기</h2>
-                            <h3 class="post-subtitle">약 2주간의 JAVA 교육을 마치면서...</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">김태운</a>
-                            on July 31, 2023
-                        </p>
+                        <h1>Skills</h1>
+                        <h2>저는 이런 기술들을 다뤄 봤습니다.</h2>
+                        <p>Programming Languages : Java, Python, C, JavaScript</p>
+                        <p>Web FE : HTML, CSS, Vue.js</p>
+                        <p>Web BE : Servlet, JSP, Spring</p>
+                        <p>DB : MySQL</p>
+                        <p>Tools : Git, Notion, Figma</p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                </div>
+            </div>
+        </div>
+
+        <div id="projects"></div>
+        <!--Projects-->
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <h1>Projects</h1>
+                        <h2>저는 이런 프로젝트들을 해봤습니다.</h2>
+                        <hr>
+                        <h3>SSAFIT 프론트엔드 구현 프로젝트</h3>
+                        <button type="button" class="btn btn-outline-primary"><a href="https://github.com/twnkm7089/SSAFIT_FE">GITHUB 링크</a></button>
+                        <button type="button" class="btn btn-outline-primary"><a href="https://github.com/twnkm7089/SSAFIT_FE/blob/master/%EA%B9%80%ED%83%9C%EC%9A%B4_README.md">내가 한 부분 README</a></button>
+                        <img src="./assets/img/ssafit_FE.png" width="100%">
+                        <p>인원 : 2인</p>
+                        <p>개요 : 미리 저장되어 있던 운동 영상 리스트를 출력하는 웹 사이트의 Front End 부분 제작</p>
+                        <p>사용 기술 : HTML, CSS, JavaScript, VSCode, GIT</p>
+                        <p>내가 맡은 부분 : 메인화면 구현, 회원가입 모달, 로그인 모달 구현</p>
+                        <p>세부 사항 요약 : </p>
+                        <ul>
+                            <li>BootStrap 프레임워크를 이용한 화면 구성</li>
+                            <li>JavaScript를 이용하여 회원가입 시 비밀번호의 길이 제한 및 비밀번호 확인 기능 구현</li>
+                        </ul>
+                        <hr>
+                        <h3>SSAFIT 백엔드 구현 프로젝트</h3>
+                        <button type="button" class="btn btn-outline-primary"><a href="https://github.com/twnkm7089/SSAFIT_3">GITHUB 링크</a><br></button>
+                        <button type="button" class="btn btn-outline-primary"><a href="https://github.com/twnkm7089/SSAFIT_3/blob/master/%ED%83%9C%EC%9A%B4_README.md">내가 한 부분 README</a></button>
+                        <img src="./assets/img/mainjsp.png" width="100%">
+                        <p>인원 : 3인</p>
+                        <p>개요 : 미리 저장되어 있던 운동 영상 리스트를 출력하는 사이트를 SSR(Server Side Rendering)기반으로 구축.</p>
+                        <p>사용 기술 : Java, JSP, Eclipse EE, GIT</p>
+                        <p>내가 맡은 부분 : MVC 구조중 Model 부분 구현</p>
+                        <p>세부 사항 요약 : </p>
+                        <ul>
+                            <li>MVC 구조를 기반으로 셋이서 분업.</li>
+                            <li>모델 부분을 맡아서 웹 사이트의 기능하는 부분을 구현.</li>
+                            <li>구현하고자 하는 부분에 맞추어 DTO, DAO 구현, 비디오나 리뷰를 보여주기 위한 메서드 정의</li>
+                            <li>분업을 통한 conflict 최소화 및, 작업 효율 증대.</li>
+                        </ul>
+                        <hr>
+                        <h3>REST API 구현 프로젝트</h3>
+                        <button type="button" class="btn btn-outline-primary"><a href="https://github.com/twnkm7089/SSAFIT_REST_API">GITHUB 링크</a><br></button>
+                        <button type="button" class="btn btn-outline-primary"><a href="https://github.com/twnkm7089/SSAFIT_REST_API/blob/master/%ED%83%9C%EC%9A%B4_README.md">내가 한 부분 README</a></button>
+                        <img src="./assets/img/restAPI.png" width="100%">
+                        <p>인원 : 3인</p>
+                        <p>개요 : MySQL DB와 연동된 운동 영상 커뮤니티를 위한 Spring REST API 구현</p>
+                        <p>사용 기술 : Java, Spring Boot, MySQL</p>
+                        <p>내가 맡은 부분 : 회원 기능과 관련된 컨트롤러 구현</p>
+                        <p>세부 사항 요약 : </p>
+                        <ul>
+                            <li>기능을 기반으로 셋이서 분업.</li>
+                            <li>Review와 관련하여 CRUD작업을 수행할 수 있는 REST API 구현</li>
+                            <li>MySQL로 구현된 DB와 연동하여 작업 수행.</li>
+                            <li>Swagger를 이용하여 검증</li>
+                        </ul>
                     </div>
                     <!-- Divider-->
                     <hr class="my-4" />
@@ -107,37 +162,6 @@
         </div>
 
 
-
-
-
-
-
-
-
-
-
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="test.html">
-                            <h2 class="post-title">테스트용 첫 글입니다.</h2>
-                            <h3 class="post-subtitle">앞으로 프로그래밍한 것들을 정리해 올릴 예정입니다.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">김태운</a>
-                            on July 13, 2023
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Pager-->
-                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
-                </div>
-            </div>
-        </div>
 
         <!--최하단-->
         <!-- Footer-->
